@@ -2,7 +2,10 @@
 with pkgs;
 mkShell {
   buildInputs = [ ];
-  nativeBuildInputs = [ ];
+  nativeBuildInputs = [ 
+    clojure
+    cljfmt
+  ];
   shellHook = '' 
   
   '';
